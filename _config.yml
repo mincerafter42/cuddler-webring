@@ -1,3 +1,4 @@
+url: https://cuddler-webring.netlify.app/
 include: [_redirects]
 exclude: [README.md]
 kramdown:
