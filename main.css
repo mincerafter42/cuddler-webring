@@ -1,0 +1,9 @@
+body {
+	background-color: #ffd8d8;
+	color: #000;
+	font-family: "Comic Neue", sans-serif;
+	font-size: 12pt;
+	text-align: left;
+}
+pre, code {font-family: monospace; font-size: 10pt;}
+footer {font-size: 9pt; text-align: right;}

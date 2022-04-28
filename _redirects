@@ -1,0 +1,12 @@
+---
+layout: none
+---
+{% for member in site.data.members %}
+{% if forloop.last %}
+/{{member.slug | slugify}}/next  {{site.data.members.first.url}}
+/{{site.data.members.first.slug | slugify}}/previous  {{member.url}}
+{% break %}
+{% endif %}
+/{{member.slug | slugify}}/next  {{site.data.members[forloop.index].url}}
+/{{site.data.members[forloop.index].slug | slugify}}/previous  {{member.url}}
+{% endfor %}
