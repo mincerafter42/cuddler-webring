@@ -18,10 +18,10 @@ Pull requests can also be used to change your existing entry or delete your entr
 <details>
 <summary>If you don't have a GitHub account, fill out this form instead:</summary>
 <form name=signup method=POST data-netlify=true netlify-honeypot=bot>
-<label>Slug <input name=slug pattern="[0-9a-z](?:-?[0-9a-z])*" required></label> (ASCII lowercase letters, digits, and hyphen-minuses)<br>
-<label>Name <input name=name></label><br>
-<label>URL <input name=url type=url></label><br>
 <div hidden><label>Leave this blank unless you're spam <input name=bot></label></div>
+<label>Slug <input name=slug pattern="[0-9a-z](?:-?[0-9a-z])*" required></label> (ASCII lowercase letters, digits, and hyphen-minuses)<br>
+<label>Name <textarea name=name></textarea></label><br>
+<label>URL <input name=url type=url></label><br>
 <input type=submit>
 </form>
 If you're editing your existing entry, make sure to use the same slug. If you're deleting your existing entry, leave the URL field blank.

@@ -7,3 +7,4 @@ body {
 }
 pre, code {font-family: monospace; font-size: 10pt;}
 footer {font-size: 9pt; text-align: right;}
+textarea {vertical-align: text-top; font-family: sans-serif;}
