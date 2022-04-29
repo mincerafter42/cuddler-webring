@@ -29,5 +29,5 @@ If you're editing your existing entry, make sure to use the same slug. If you're
 
 ## Add links on your webpage
 Once you're on the members list, add links on your webpage to <b>{{'/YOUR-SLUG/next'|absolute_url}}</b> and <b>{{'/YOUR-SLUG/previous'|absolute_url}}</b>, replacing <b>YOUR-SLUG</b> with the slug you chose.  
-Feel free to include a link to <b>{{'/index'|absolute_url}}</b> as well.  
+Feel free to include a link to <b>{{'/'|absolute_url}}</b> as well.  
 Check if [the `<aside>` element](https://html.spec.whatwg.org/multipage/sections.html#the-aside-element) is right for you.
