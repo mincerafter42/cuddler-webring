@@ -11,4 +11,3 @@ If the ring is broken, please [submit an error report on GitHub]({{site.github_r
 ## Members ({{site.data.members.size}}) {#members}
 {% for member in site.data.members %}
 - <a href="{{member.url | xml_escape}}" markdown=0>{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
-{% comment %}{% include_relative _data/members.csv %} (hacky way to use jekyll incremental regeneration) {% endcomment %}
