@@ -1,0 +1,15 @@
+---
+title: Cuddler Webring Index
+layout: html
+---
+<h1>Cuddler Webring</h1>
+<p>Inspired by the long-defunct CuddleLand Webring of the 1990s, this is a <a href=https://en.wikipedia.org/wiki/Webring>webring</a> in which all the members love cuddling!<br>
+If you love cuddles and have a personal website, you might be interested in <a href="{{'/join'|relative_url}}">joining the webring</a>.
+
+<p>If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub</a>.
+
+<h2 id=members>Members ({{site.data.members.size}})</h2>
+<ul>
+{% for member in site.data.members %}
+<li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
+</ul>
