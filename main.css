@@ -5,6 +5,9 @@ body {
 	font-size: 12pt;
 	text-align: left;
 }
+h1, h2, h3, h4, h5, h6, a:link, a:visited {color:#303;font-weight:bold}
+a {text-decoration:underline}
+a:hover, a:focus {background-color:#303;color:#ffd8d8}
 pre, code {font-family: monospace; font-size: 10pt;}
 footer {font-size: 9pt; text-align: right;}
 textarea, input {vertical-align: text-top; font-family: sans-serif;}
