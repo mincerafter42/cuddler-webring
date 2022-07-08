@@ -5,3 +5,4 @@ kramdown:
  syntax_highlighter: +nil+
  smart_quotes: "39,39,34,34"
 github_repo_url: https://github.com/mincerafter42/cuddler-webring
+admin_email: viatrix-cuddler.webring.admin@purelymail.com
